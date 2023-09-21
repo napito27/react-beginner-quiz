@@ -1,0 +1,20 @@
+.badge {
+  border-radius: 0.6em;
+  color: wheat;
+  font-weight: 400;
+  padding: 0.5em 1em;  
+  position: absolute;
+  margin-left: 80px;
+}
+
+.success {
+  background-color: rgb(76, 160, 11) ;
+}
+
+.warning {
+  background-color: rgb(174, 174, 23) ;
+}
+
+.error {
+  background-color: rgb(125, 20, 20) ;
+}

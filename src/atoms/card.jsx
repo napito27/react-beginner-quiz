@@ -3,13 +3,14 @@ import React from 'react';
 
 import '../styles/card.css'
 
-function Card({title, content}) {
+function Card({title, content, children }) {
     return (
       <div className='card'>
         <h2>{title}</h2>
-        <p>{content}</p>
+        <p><em>{content}</em></p>
+        <div>{ children }</div>
       </div>       
     )
 }
 
-  export default Card;
+export default Card;

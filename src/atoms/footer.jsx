@@ -9,4 +9,4 @@ function Footer({content, name}) {
     )
 }
 
-  export default Footer; 
+export default Footer; 

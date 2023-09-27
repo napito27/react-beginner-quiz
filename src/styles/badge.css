@@ -8,6 +8,14 @@
   margin-left: 80px;
 }
 
+span:hover {  
+  color: black;
+  transform: rotate(3deg);
+  /* transform: scale(1.1); */
+  transition: all 0.5s ease-in-out;
+  /* opacity: 0.3; */
+}
+
 .success {
   background-color: rgb(76, 160, 11) ;
 }

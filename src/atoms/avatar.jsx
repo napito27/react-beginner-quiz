@@ -1,7 +1,7 @@
-
 import React from "react";
 
 import '../styles/avatar.css'
+
 
 function Avatar({imageSrc, description}) {
     return ( 

@@ -1,7 +1,7 @@
 import React from 'react';
 
 // styles
-import './App.css';
+import './styles/App.css';
 
 // components
 import Avatar from './atoms/avatar';
@@ -11,19 +11,25 @@ import Counter from './atoms/counter';
 import Header from './atoms/header';
 import Footer from './atoms/footer';
 
+import reactDesign from './images/reactDesign.jpg'
+
 function App() {
   return (
     <>
       <div className='App'>
 
         <Header title="React Beginner's Quiz"/>
-        <Card title="Best therapy" content="sometimes is a drive and music." /> 
-        <Card title="Train your mind" content="to be calm in every situation." />
-        <Badge label="New" color="warning"/>
-        <Card title="Every master" content="was once a beginner." />
-        <Counter/>
+        <div className='cards' >
+          <Card title="Best therapy" content="sometimes is a drive and music." /> 
+          <Card>
+            <Counter/>
+          </Card>
+          <Card title="Every master" content="was once a beginner.">
+            <Badge label="New" color="success"/>
+          </Card>
+        </div>
         <Avatar 
-          imageSrc="https://topsoftwarecompanies.co/front_assets/img/blog/React_For_Front-End_Development.jpg "
+          imageSrc={reactDesign}
           description="Cool react image" />
         <Footer content="Created with ❤️ by " name=" Edgardo Flores" />
 

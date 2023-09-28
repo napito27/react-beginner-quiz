@@ -5,7 +5,7 @@ import '../styles/card.css'
 
 function Card({title, content, children }) {
     return (
-      <div className='card'>
+      <div className='card counter-box'>
         <h2>{title}</h2>
         <p><em>{content}</em></p>
         <div>{ children }</div>

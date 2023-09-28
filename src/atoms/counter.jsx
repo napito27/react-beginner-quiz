@@ -23,7 +23,7 @@ export default function Counter() {
   }
 
   return (
-      <div className='counter-box'>
+      <div>
         <h1>Count <span className={color} >{count}</span></h1>
         <button className='decrement' onClick={decrementCount}>Decrement</button>
         <button className='increment' onClick={incrementCount}>Increment</button>

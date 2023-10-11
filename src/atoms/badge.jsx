@@ -1,14 +1,14 @@
-
 import React from 'react';
 
+// styles
 import '../styles/badge.css';
 
 
-function Badge({label, color}) { 
+function Badge({label, color='success'}) { 
   if (color !== "success" || color !== "warning" || color !== "error") {
-    color = "success";
-  } 
-    return <span className={`badge ${color}`} >{label}</span>;
+    
+  }
+  return <span className={`badge ${color}`}> {label} </span>;
 }
 
 export default Badge;

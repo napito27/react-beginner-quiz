@@ -1,7 +1,7 @@
 .card {
   color: rgb(29, 72, 92) ;
   line-height: 0.5em;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   padding: 5px;
   width: 300px; 
   position: relative;

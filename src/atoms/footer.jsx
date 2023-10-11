@@ -1,6 +1,7 @@
 
 import React from "react";
 
+// styles
 import '../styles/footer.css'
 
 function Footer({content, name}) {
@@ -9,4 +10,4 @@ function Footer({content, name}) {
     )
 }
 
-  export default Footer; 
+export default Footer; 

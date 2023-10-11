@@ -1,6 +1,6 @@
-
 import React from 'react';
 
+// styles
 import '../styles/card.css'
 
 function Card({title, content, children }) {
@@ -8,7 +8,7 @@ function Card({title, content, children }) {
       <div className='card counter-box'>
         <h2>{title}</h2>
         <p><em>{content}</em></p>
-        <div>{ children }</div>
+        { children }
       </div>       
     )
 }

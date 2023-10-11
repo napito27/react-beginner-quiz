@@ -1,18 +1,13 @@
 .avatar {
+  border: none;
+  border-radius: 50%;
+  height: 100px;
+  margin: 200px auto 10px;
   overflow: hidden;
-  border: solid .1em rgb(100, 17, 100);
-  border-radius: 1em;
-  width: 500px;
-  height: 320px;
-  margin: 3em auto;
-}
-.avatar img {
-  width: 100%;
-  height: 100%;
+  width: 100px;
 }
 
-.avatar img:hover {  
-  transform: scale(1.1);
-  transition: all 0.5s ease-in-out;
-  opacity: 0.3;
+.avatar img {
+  height: 100%;
+  width: 100%;
 }

@@ -7,7 +7,7 @@
   position: absolute;
   margin-left: 40px;
   margin-top: -105px;
-  transform: rotate(8deg);
+  transform: rotate(-8deg);
 }
 
 span:hover {  

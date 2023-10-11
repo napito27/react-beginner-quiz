@@ -1,7 +1,5 @@
 import React from 'react';
 
-// styles
-import './styles/App.css';
 
 // components
 import Avatar from './atoms/avatar';
@@ -11,7 +9,14 @@ import Counter from './atoms/counter';
 import Header from './atoms/header';
 import Footer from './atoms/footer';
 
-import reactDesign from './images/reactDesign.jpg'
+// images
+import reactDesign from './images/photo.JPEG'
+
+// hooks
+
+
+// styles
+import './styles/App.css';
 
 function App() {
   return (
@@ -25,12 +30,12 @@ function App() {
             <Counter/>
           </Card>
           <Card title="Every master" content="was once a beginner.">
-            <Badge label="New" color="success"/>
+            <Badge label="New" />
           </Card>
         </div>
         <Avatar 
           imageSrc={reactDesign}
-          description="Cool react image" />
+          description="Edgardo's photo" />
         <Footer content="Created with ❤️ by " name=" Edgardo Flores" />
 
       </div>

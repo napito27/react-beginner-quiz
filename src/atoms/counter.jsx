@@ -1,32 +1,37 @@
 import React from 'react'
 
-  // components
+  // hooks
 import { useState } from 'react'
 
-let color = ''
+// styles
+import '../styles/counter.css'
 
 export default function Counter() {
   const [count, setCount] = useState(() => {
-    return 0
+    return 0    
   })
 
   function decrementCount() {
     if (count >= 1) {
-      setCount(prevCount => prevCount - 1)      
-      color = 'red'
+      setCount(prevCount => prevCount - 1)       
     }
   }
 
   function incrementCount() {
     setCount(prevCount => prevCount + 1)
-    color = 'green'
+  }
+
+  function resetCount() {
+    setCount(0)
   }
 
   return (
       <div>
-        <h1>Count <span className={color} >{count}</span></h1>
+        <h1>Count { count }</h1>
         <button className='decrement' onClick={decrementCount}>Decrement</button>
         <button className='increment' onClick={incrementCount}>Increment</button>
+        <br/>
+        <button className='reset' onClick={resetCount}>reset</button>
       </div> 
   )
 }
